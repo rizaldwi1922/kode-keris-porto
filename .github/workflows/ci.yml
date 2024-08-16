@@ -22,7 +22,3 @@ jobs:
           script: |
             cd ~/kode-keris-porto
             git pull origin master
-            git status
-            npm install
-            pm2 reload
-            pm2 restart
