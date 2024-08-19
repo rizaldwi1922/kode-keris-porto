@@ -8,12 +8,12 @@ const Header: React.FC = () => {
   return (
     <Layout.Header className="bg-porto" style={{ display: "flex", alignItems: "center" }}>
       <BugOutlined
-        style={{ color: "#0891b2", fontSize: 30, marginRight: 10 }}
+        style={{ color: "#22d3ee", fontSize: 30, marginRight: 10 }}
       />
       <Text strong style={{ fontSize: 30, color: "#F5F5F5" }}>
         Kode
       </Text>{" "}
-      <Text strong style={{ fontSize: 30}} className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">
+      <Text strong style={{ fontSize: 30}} className="text-transparent bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text">
         Keris
       </Text>
     </Layout.Header>
